@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Vancouver.css">
+    <style>
+        header {
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+        }
+        </style>
+</head>
+<body>
+
+    <header>
+        <div class="dropdown">
+            <button id="toggleMenu">☰ Menu</button>
+            <div class="dropdown-content">
+                <a href="Fő oldal (Back to the grind).html">Home </a>
+                <a href="Memphis.html">Memphis</a>
+                <a href="Gallery.html">Galléria </a>
+            </div>
+        </div>
+        <H1>Vancouver</H1>
+        <img src="vancouver griz.gif" class="logo">
+    </header>
+
+    <main>
+        <img src="Vancouver_Grizzlies_logo.svg.png" class="vancouver">
+        <h2>Vancouver Grizzlies</h2> 
+
+        <p>A Grizzlies csapat eredetileg Kanadában kezdett el játszani ekkor még Vancouver Grizzlies néven.A csapat 1995-ben jött létre viszont nem volt valami hosszú életű.
+            Mint ahogyan az várható eleinte sokat szenvedtek a csapat 5 szezont is az utolsó helyen felyezett be.Összesen 101 meccset tudtak megnyerni és 359-cet vesztettek el.
+            Ezek az évek után mival nagyon meggyengült a Kanadai dollár ezért a tulaj már csak vesztett a csapaton és ezért 2001-ben eladta a csapatot amelyet átvittek Memphisbe.
+            A csapat máig a kevés Kanadai csapat tartozik.
+   
+   <h2>A csapat eredményei a 6 év alatt</h2>
+   <img src="vteam.webp" class="vteam">
+   <p>1995-96&nbsp;&nbsp;15 győzelem&nbsp;&nbsp;67 vereség
+    <p>1996-97&nbsp;&nbsp;14 győzelem&nbsp;&nbsp;68 vereség
+    <p>1997-98&nbsp;&nbsp;19 győzelem&nbsp;&nbsp;63 vereség
+    <p>1998-99&nbsp;&nbsp;8 győzelem&nbsp;&nbsp;42 vereség
+    <p>1999-00&nbsp;&nbsp;22 győzelem&nbsp;&nbsp;60 vereség
+    <p>2000-01&nbsp;&nbsp;23 győzelem&nbsp;&nbsp;59 vereség
+   
+        </main>
+
+    <script>
+        document.getElementById('toggleMenu').addEventListener('click', function() {
+            var menu = document.querySelector('.dropdown-content');
+            menu.style.display = (menu.style.display === 'block' || menu.style.display === '') ? 'none' : 'block';
+        });
+    </script>
+
+</body>
+</html>
